@@ -40,8 +40,8 @@ app.post('/orcamento', async (req, res) => {
         host: "smtp.mailtrap.io",
         port: 2525,
         auth: {
-            user: "9b2310e6c73770",
-            pass: "1ef0e5ec84772e",
+            user: "XXX",
+            pass: "XXX",
         },
     });
 
@@ -50,7 +50,7 @@ app.post('/orcamento', async (req, res) => {
     var emailTexto = 'Prezado(a),\n\nRecebi a solicitação de orçamento.\n\nEm breve será encaminhado o orçamento\n\n';
 
     var emailSendInfo = {
-        from: '154e03bc3a-af1059@inbox.mailtrap.io', 
+        from: 'XXX', 
         to: req.body.email, 
         subject: "Recebi a soliticação de orçamento", 
         text: emailTexto, 
