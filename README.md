@@ -1,2 +1,2 @@
 # imersao04
-Imersão ao Node.js, React e React Native
+Projeto para estudo de Node.js, React e React Native
